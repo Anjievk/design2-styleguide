@@ -83,7 +83,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: auto;
 }
 
 .banner{
@@ -107,7 +107,7 @@
 }
 
 .demo{
-    width: 30vw;
+    width: 40vw;
     height: auto;
     border-radius: 12px;
 }
