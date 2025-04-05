@@ -1,0 +1,142 @@
+:root {
+    --nav-background-color: #506BAE;
+    --text-color: #fff;
+    --neutral-color: #152560;
+    --font-size-base: 32px;
+    --font-size-lg: 48px;
+    --font-size-sm: 14px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    padding: 10px;
+    height: 5vh;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px; /* Adjust spacing */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+/* end nav */
+
+/*banner*/
+.banner-section{
+    background-color:var(--nav-background-color) ;
+   color: ;
+
+}
+
+.title{
+    font-size:var(--font-size-lg) ;
+}
+
+/*content*/
+
+.content {
+    margin: 40px auto;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-color);
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: var(--font-size-lg);
+}
+
+.content-body {
+    margin-bottom: 20px;
+    font-size: var(--font-size-base);
+}
+
+.content-graphic {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    justify-content: center;
+}
+.content-image {
+    width:235px;
+    
+}
+
+.footer-container{
+    background-color:var(--neutral-color);
+    color:  var(--text-color);
+    font-size: 12pt;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.copyright{
+    margin-bottom:0px;
+}
+
+.logo-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+
+.brand-logo{
+    width:100px;
+    margin-top: 20px;
+}
+
+.copyright{
+    align-items: center;
+    margin-bottom:20px;
+    margin-left:5px;
+}
+
+.footer-navbar{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 70px;
+}
+
+.footer-list-items{
+    font-weight: bold;
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,63 @@
+:root {
+    --nav-background-color: #506BAE;
+    --text-color: #fff;
+    --neutral-color: #152560;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-sm: 14px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.container-fluid {
+    display: flex;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    
+}
+
+.content {
+    margin: 40px auto;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-color);
+    
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-body {
+    margin-bottom: 20px;
+}
+
+.footer-container{
+    background-color:var(--neutral-color);
+    color:  var(--text-color);
+    font-weight: bold;
+    font-size: 12pt;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}

@@ -1,0 +1,45 @@
+:root {
+    --blue-500: var
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.nav-tabs li a {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #506BAE;
+    border: 0;
+    font-size: 11px !important;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+    text-decoration: none;
+}
+
+.navbar-right li a {
+    list-style-type: none;
+
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.nav {
+    display: flex;
+    font-size: 1.75rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+}
+
